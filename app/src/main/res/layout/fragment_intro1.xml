@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/primary"
+    tools:context=".fregment.IntroFragment1">
+
+    <ImageView
+        android:id="@+id/women"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_180sdp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/women" />
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@id/women"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textSize="@dimen/_18sdp"
+        android:textStyle="bold"
+        android:fontFamily="@font/solaimanlipi"
+        android:textColor="@color/black"/>
+
+
+</RelativeLayout>

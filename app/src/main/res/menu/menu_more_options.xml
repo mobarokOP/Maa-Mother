@@ -1,0 +1,27 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_end"
+        android:title="প্রেগনেন্সি শেষ করুন"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_share"
+        android:title="অ্যাপসটি শেয়ার করুন"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_feedback"
+        android:title="মতামত দিন"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:title="আমাদের সম্পর্কে"
+        android:orderInCategory="101"
+        app:showAsAction="never" />
+</menu>

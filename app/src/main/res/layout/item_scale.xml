@@ -1,0 +1,6 @@
+<View android:layout_width="@dimen/_4sdp"
+    android:id="@+id/view"
+    android:layout_height="@dimen/_5sdp"
+    android:background="#89ED8C"
+    android:layout_marginHorizontal="@dimen/_1sdp"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

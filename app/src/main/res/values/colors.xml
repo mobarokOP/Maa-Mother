@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#DEF3FF</color>
+    <color name="primaryDark">#C5D9E4</color>
+    <color name="primaryAccent">#EEF9FF</color>
+    <color name="primaryAccentPro">#F6FBFD</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+
+    <color name="scale_accent">#C8FACA</color>
+    <color name="scale_">#9BE99E</color>
+    <color name="scale_dark">#68D16C</color>
+
+
+</resources>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardElevation="@dimen/_10sdp"
+    app:cardBackgroundColor="@color/white">
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="নোট যোগ করুন"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:background="@color/primary"
+            android:layout_marginVertical="@dimen/_2sdp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:hintTextColor="@color/primary"
+            app:boxStrokeColor="@color/primary"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dateEDLay"
+            android:nextFocusUp="@id/titleED"
+            android:hint="তারিখ:"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:id="@+id/dateED"
+                android:singleLine="true"
+                android:inputType="date"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:nextFocusUp="@id/symptomsED"
+            app:hintTextColor="@color/primary"
+            app:boxStrokeColor="@color/primary"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleEDLay"
+            android:hint="নোট এর নাম দিন"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/titleED"
+                android:singleLine="true"
+                android:inputType="text"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:nextFocusUp="@id/detailsED"
+            app:hintTextColor="@color/primary"
+            app:boxStrokeColor="@color/primary"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/symptomsEDLay"
+            android:hint="লক্ষণসমূহ লিখুন"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/symptomsED"
+                android:inputType="textMultiLine"
+                android:lines="3"
+                android:minLines="1"
+                android:gravity="top|start"
+            />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            app:hintTextColor="@color/primary"
+            app:boxStrokeColor="@color/primary"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/detailsEDLay"
+            android:hint="বিস্তারিত লিখুন"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/detailsED"
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:minLines="1"
+                android:gravity="top|start"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <Button
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:backgroundTint="@color/primary"
+            android:id="@+id/btnSave"
+            android:layout_marginHorizontal="@dimen/_50sdp"
+            android:layout_marginVertical="@dimen/_5sdp"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

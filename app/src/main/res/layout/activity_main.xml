@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    tools:context=".activity.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/primary"
+        app:titleTextColor="@color/black"/>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:background="@color/primaryAccentPro"
+        android:layout_above="@id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolBar"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/toolBar"
+                android:layout_margin="@dimen/_8sdp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/primaryAccent"
+                app:cardCornerRadius="@dimen/_5sdp">
+                <RelativeLayout
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:id="@+id/hintTv"
+                        android:fontFamily="@font/solaimanlipi"
+                        android:layout_gravity="top|start"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_17sdp"
+                        android:text="@string/one_eye"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/goneDay"
+                        android:fontFamily="@font/solaimanlipi"
+                        android:layout_below="@id/hintTv"
+                        android:layout_gravity="top|start"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:text="2 সপ্তাহ 1 দিন"
+                        android:textColor="@color/black"
+                        android:alpha="0.6"
+                        android:textStyle="bold"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_2sdp"
+                        android:id="@+id/line"
+                        android:layout_below="@id/goneDay"
+                        android:layout_marginVertical="@dimen/_3sdp"
+                        android:background="#CFCFCF"
+                        />
+
+                    <View
+                        android:id="@+id/startScale"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:layout_below="@id/line"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/line2"
+                        />
+
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginVertical="@dimen/_3sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_6sdp"
+                        android:layout_below="@id/line"
+                        android:id="@+id/scale"
+                        />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginVertical="@dimen/_3sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_6sdp"
+                        android:layout_below="@id/scale"
+                        android:id="@+id/scaleRecycler"
+                        />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_2sdp"
+                        android:id="@+id/line2"
+                        android:layout_below="@id/scaleRecycler"
+                        android:layout_marginVertical="@dimen/_3sdp"
+                        android:background="#CFCFCF"
+                        />
+
+                    <TextView
+                        android:id="@+id/leftDay"
+                        android:fontFamily="@font/solaimanlipi"
+                        android:layout_below="@id/line2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:text="2 সপ্তাহ 1 দিন"
+                        android:textColor="@color/black"
+                        android:alpha="0.6"
+                        android:textStyle="bold"
+                        />
+
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardOne"
+                android:layout_margin="@dimen/_8sdp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/primaryAccent"
+                app:cardCornerRadius="@dimen/_5sdp">
+                <RelativeLayout
+                    android:layout_margin="@dimen/_5sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true"
+                        android:fontFamily="@font/solaimanlipi"
+                        android:id="@+id/hintTv2"
+                        android:layout_gravity="top|start"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_17sdp"
+                        android:text="@string/weekly_changes"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:id="@+id/goneDay2"
+                        android:layout_below="@id/hintTv2"
+                        android:layout_gravity="top|start"
+                        android:layout_width="wrap_content"
+                        android:fontFamily="@font/solaimanlipi"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:text="2 সপ্তাহ 1 দিন"
+                        android:textColor="@color/black"
+                        android:alpha="0.6"
+                        android:textStyle="bold"
+                        />
+
+
+                    <ImageView
+                        android:layout_width="@dimen/_30sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:src="@drawable/ic_play"
+                        android:padding="@dimen/_5sdp"
+                        android:background="@drawable/ic_round"
+                        android:backgroundTint="@color/primary"
+                        app:tint="@color/black"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:id="@+id/btnPlay"
+                        android:layout_marginEnd="@dimen/_10sdp"
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_2sdp"
+                        android:id="@+id/line3"
+                        android:layout_below="@id/goneDay2"
+                        android:layout_marginVertical="@dimen/_3sdp"
+                        android:background="#CFCFCF"
+                        />
+
+
+
+
+                    <RelativeLayout
+                        android:clickable="true"
+                        android:foreground="?attr/selectableItemBackgroundBorderless"
+                        android:id="@+id/viewLay"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_200sdp"
+                        android:layout_below="@id/line3"
+                        >
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/imageView"
+                            android:scaleType="fitXY"
+                            />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_100sdp"
+                            android:background="@drawable/bottom_2_top"
+                            android:layout_alignParentBottom="true"
+                            />
+
+
+                        <TextView
+                            android:id="@+id/tvHint"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentStart="true"
+                            android:textSize="@dimen/_16sdp"
+                            android:fontFamily="@font/solaimanlipi"
+                            android:textColor="@color/white"
+                            android:text="@string/click_to_know_more"
+                            android:layout_margin="@dimen/_3sdp"/>
+                    </RelativeLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_2sdp"
+                        android:id="@+id/line4"
+                        android:layout_below="@id/viewLay"
+                        android:layout_marginVertical="@dimen/_3sdp"
+                        android:background="#CFCFCF"
+                        />
+
+                    <TextView
+                        android:id="@+id/detailsTV"
+                        android:layout_below="@id/line4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_12sdp"
+                        android:text="2 সপ্তাহ 1 দিন"
+                        android:fontFamily="@font/solaimanlipi"
+                        android:textColor="@color/black"
+                        android:alpha="0.6"
+                        android:textStyle="bold"
+                        />
+
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_8sdp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/primaryAccent"
+                app:cardCornerRadius="@dimen/_5sdp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+
+
+                    <LinearLayout
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/btn1"
+                            android:clickable="true"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:orientation="vertical"
+                            android:layout_marginHorizontal="@dimen/_3sdp"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_80sdp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            >
+
+                            <ImageView
+                                android:layout_width="@dimen/_40sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:src="@drawable/ic_doctor"
+                                android:background="@drawable/ic_round"
+                                android:padding="@dimen/_5sdp"
+                                app:tint="@color/black"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/_14sdp"
+                                android:fontFamily="@font/solaimanlipi"
+                                android:textColor="@color/black"
+                                android:text="@string/emergency"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn2"
+                            android:clickable="true"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:orientation="vertical"
+                            android:layout_marginHorizontal="@dimen/_3sdp"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_80sdp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="@dimen/_40sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:src="@drawable/responsibility"
+                                android:background="@drawable/ic_round"
+                                android:padding="@dimen/_8sdp"
+                                app:tint="@color/black"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/_14sdp"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/solaimanlipi"
+                                android:text="@string/responsibility"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn3"
+                            android:clickable="true"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:orientation="vertical"
+                            android:layout_marginHorizontal="@dimen/_3sdp"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_80sdp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            >
+
+                            <ImageView
+                                android:layout_width="@dimen/_40sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:src="@drawable/ic_food"
+                                android:background="@drawable/ic_round"
+                                android:padding="@dimen/_8sdp"
+                                app:tint="@color/black"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/_14sdp"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/solaimanlipi"
+                                android:text="@string/food_list"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/btn4"
+                            android:clickable="true"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:orientation="vertical"
+                            android:layout_marginHorizontal="@dimen/_3sdp"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_80sdp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="@dimen/_40sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:src="@drawable/weight"
+                                android:background="@drawable/ic_round"
+                                android:padding="@dimen/_8sdp"
+                                app:tint="@color/black"/>
+
+                            <TextView
+                                android:fontFamily="@font/solaimanlipi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/_14sdp"
+                                android:textColor="@color/black"
+                                android:text="@string/calculate_bmi"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn5"
+                            android:clickable="true"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:orientation="vertical"
+                            android:layout_marginHorizontal="@dimen/_3sdp"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_80sdp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            >
+
+
+
+                            <ImageView
+                                android:layout_width="@dimen/_40sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:src="@drawable/ic_add_note"
+                                android:background="@drawable/ic_round"
+                                android:padding="@dimen/_5sdp"
+                                app:tint="@color/black"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/_14sdp"
+                                android:fontFamily="@font/solaimanlipi"
+                                android:textColor="@color/black"
+                                android:text="@string/write_note"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn6"
+                            android:clickable="true"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:orientation="vertical"
+                            android:layout_marginHorizontal="@dimen/_3sdp"
+                            android:layout_width="0dp"
+
+                            android:layout_height="@dimen/_80sdp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            >
+
+
+
+                            <ImageView
+                                android:layout_width="@dimen/_40sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:src="@drawable/ic_help"
+                                android:background="@drawable/ic_round"
+                                android:padding="@dimen/_5sdp"
+                                app:tint="@color/black"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/_14sdp"
+                                android:textColor="@color/black"
+                                android:fontFamily="@font/solaimanlipi"
+                                android:text="@string/questions"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_5sdp"
+        android:id="@+id/banner_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

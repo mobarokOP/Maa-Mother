@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_5sdp"
+    android:layout_margin="@dimen/_5sdp"
+    app:cardElevation="@dimen/_4sdp"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:id="@+id/question_card"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/primary">
+
+    <LinearLayout
+        android:padding="@dimen/_5sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_margin="@dimen/_5sdp"
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/black"
+            android:text="@string/app_name"
+            android:fontFamily="@font/solaimanlipi"
+            />
+        <View
+            android:layout_marginTop="@dimen/_3sdp"
+            android:visibility="gone"
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_2sdp"
+            android:background="#C3C3C3" />
+
+        <TextView
+            android:padding="@dimen/_10sdp"
+            android:background="@color/primaryAccentPro"
+            android:visibility="gone"
+            android:id="@+id/answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/solaimanlipi"
+            android:text="@string/app_name"
+            />
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

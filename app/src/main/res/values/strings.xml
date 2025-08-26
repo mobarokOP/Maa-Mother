@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">গর্ভকালীন সহায়ক</string>
+    <string name="DEVELOPER_CONTACT_MAIL">mobarokop001@gmail.com</string>
+    <string name="APP_SHARE_MSG">I found this amazing app that you might like. Download it from: \n</string>
+    <string name="POWERED_BY">Powered by Mobarok Hosen Mukut</string>
+
+    <bool name="ADS_ON">false</bool>
+    <integer name="AD_INTERVAL">7</integer>
+    <string name="INTERSTITIAL_ID">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="BANNER_ID">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="APP_ID">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="calculate_bmi">BMI হিসাব করুন</string>
+    <string name="your_bmi">আপনার BMI:</string>
+    <string name="weight_kg">আপনার ওজন লিখুন (kg)</string>
+    <string name="height_feet">আপনি কত ফিট লম্বা</string>
+    <string name="height_inches">ও কত ইঞ্চি</string>
+    <string name="emergency">ইমার্জেন্সি</string>
+    <string name="responsibility">দায়িত্ব</string>
+    <string name="food_list">খাবারের তালিকা</string>
+    <string name="write_note">নোট লিখুন</string>
+    <string name="questions">জিজ্ঞাসা</string>
+    <string name="one_eye">এক নজরে</string>
+    <string name="weekly_changes">সাপ্তাহিক পরিবর্তন</string>
+    <string name="click_to_know_more">বিস্তারিত জানতে এখানে চাপুন</string>
+    <string name="about_us">About Us</string>
+    <string name="welcome">স্বাগতম!</string>
+
+</resources>

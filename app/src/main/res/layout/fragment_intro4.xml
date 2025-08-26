@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/primary"
+    tools:context=".fregment.IntroFragment4">
+
+
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_marginTop="@dimen/_150sdp"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:src="@drawable/women"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_5sdp"
+        />
+
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/white"
+        android:layout_below="@id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_20sdp"
+        />
+
+
+    <TextView
+        android:id="@+id/hintTv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_22sdp"
+        android:text="@string/one_eye"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@id/line"
+        android:fontFamily="@font/solaimanlipi"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/detailsTV"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:layout_below="@id/hintTv2"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@string/one_eye"
+        />
+
+
+
+</RelativeLayout>

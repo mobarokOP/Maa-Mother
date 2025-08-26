@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/primary"
+    tools:context=".fregment.IntroFragment3">
+
+
+    <TextView
+        android:id="@+id/hintTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_150sdp"
+        android:text="তারিখ পরিবর্তন করতে এখানে চাপুন"
+        android:textStyle="normal"
+        android:fontFamily="@font/solaimanlipi"
+        android:textSize="@dimen/_14sdp"
+        android:textColor="@color/black"
+        />
+
+    <ImageView
+        android:id="@+id/changeDate"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:src="@drawable/ic_date"
+        android:scaleType="fitXY"
+        app:tint="@color/black"
+        android:layout_below="@id/hintTv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        />
+
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/black"
+        android:layout_below="@id/changeDate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_20sdp"
+        />
+
+
+    <TextView
+        android:id="@+id/hintTv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_22sdp"
+        android:text="সম্ভাব্য প্রসবের তারিখ"
+        android:textColor="@color/black"
+        android:fontFamily="@font/solaimanlipi"
+        android:textStyle="bold"
+        android:layout_below="@id/line"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:id="@+id/possibleDate"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_22sdp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/solaimanlipi"
+        android:textStyle="normal"
+        android:layout_below="@id/hintTv2"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+</RelativeLayout>
