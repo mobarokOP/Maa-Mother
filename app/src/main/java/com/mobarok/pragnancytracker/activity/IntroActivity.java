@@ -46,6 +46,7 @@ public class IntroActivity extends AppCompatActivity {
             }
         });
 
+
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,6 +55,7 @@ public class IntroActivity extends AppCompatActivity {
                     check(CURRENT_FRAGMENT);
                 }else {
                     customPref.setSession(false);
+
                     startActivity(new Intent(IntroActivity.this, MainActivity.class));
                     finish();
                 }

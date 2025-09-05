@@ -19,40 +19,42 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MaaMother"
         tools:targetApi="31">
-
         <activity
-            android:name="com.mobarok.pragnancytracker.activity.NotePadActivity"
+            android:name=".activity.TermsActivity"
             android:exported="false" />
         <activity
-            android:name="com.mobarok.pragnancytracker.activity.BmiActivity"
+            android:name=".activity.NotePadActivity"
             android:exported="false" />
         <activity
-            android:name="com.mobarok.pragnancytracker.activity.ScaleActivity"
+            android:name=".activity.BmiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.ScaleActivity"
             android:exported="false"
             android:screenOrientation="landscape" />
         <activity
-            android:name="com.mobarok.pragnancytracker.activity.Food"
+            android:name=".activity.Food"
             android:exported="false" />
         <activity
-            android:name="com.mobarok.pragnancytracker.activity.Responsibility"
+            android:name=".activity.Responsibility"
             android:exported="false" />
         <activity
-            android:name="com.mobarok.pragnancytracker.activity.Emergency"
+            android:name=".activity.Emergency"
             android:exported="false" />
         <activity
-            android:name="com.mobarok.pragnancytracker.activity.QuestionActivity"
+            android:name=".activity.QuestionActivity"
             android:exported="false" />
         <activity
-            android:name="com.mobarok.pragnancytracker.activity.WeekActivity"
+            android:name=".activity.WeekActivity"
             android:exported="false" />
         <activity
-            android:name="com.mobarok.pragnancytracker.activity.IntroActivity"
+            android:name=".activity.IntroActivity"
             android:exported="true" />
         <activity
-            android:name="com.mobarok.pragnancytracker.activity.MainActivity"
+            android:name=".activity.MainActivity"
             android:exported="true" />
         <activity
-            android:name="com.mobarok.pragnancytracker.activity.SplashActivity"
+            android:name=".activity.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -64,7 +66,6 @@
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="@string/APP_ID" />
-
     </application>
 
 </manifest>

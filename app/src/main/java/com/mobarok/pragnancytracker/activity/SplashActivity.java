@@ -4,6 +4,7 @@ import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.animation.Animation;
@@ -32,16 +33,32 @@ public class SplashActivity extends AppCompatActivity {
         logoIV.startAnimation(animLogo);
         titleTV.startAnimation(animTitle);
 
+        SharedPreferences prefs = getSharedPreferences("AppPrefs", MODE_PRIVATE);
+        boolean isAgreed = prefs.getBoolean("isAgreed", false);
+
+
+
+
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                if (customPref.getSession()){
-                    startActivity(new Intent(SplashActivity.this, IntroActivity.class));
-                    finish();
-                }else {
-                    startActivity(new Intent(SplashActivity.this, MainActivity.class));
-                    finish();
+
+                if (isAgreed) {
+                    if (customPref.getSession()){
+                        startActivity(new Intent(SplashActivity.this, IntroActivity.class));
+                        finish();
+                    }else {
+
+                        startActivity(new Intent(SplashActivity.this, MainActivity.class));
+                        finish();
+
+                    }
+
+                } else {
+                    startActivity(new Intent(SplashActivity.this, TermsActivity.class));
                 }
+                finish();
+
             }
         },3000);
 

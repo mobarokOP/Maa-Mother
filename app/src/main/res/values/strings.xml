@@ -9,6 +9,9 @@
     <string name="INTERSTITIAL_ID">ca-app-pub-3940256099942544/1033173712</string>
     <string name="BANNER_ID">ca-app-pub-3940256099942544/6300978111</string>
     <string name="APP_ID">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="APP_OPEN_ID">ca-app-pub-3940256099942544/9257395921</string>
+
+
     <string name="calculate_bmi">BMI হিসাব করুন</string>
     <string name="your_bmi">আপনার BMI:</string>
     <string name="weight_kg">আপনার ওজন লিখুন (kg)</string>
