@@ -43,7 +43,7 @@ import java.util.concurrent.TimeUnit;
 
 public class MainActivity extends AppCompatActivity {
     Toolbar toolBar;
-    LinearLayout btn1, btn2, btn3, btn4, btn5, btn6;
+    LinearLayout btn1, btn2, btn3, btn4, btn5, btn6, btnBaby, btnDisclaimer, btnHospital;
     CustomPref customPref;
     TextView leftDay, goneDay, goneDay2;
     int currentWeek;
@@ -108,6 +108,10 @@ public class MainActivity extends AppCompatActivity {
         btn4 = findViewById(R.id.btn4);
         btn5 = findViewById(R.id.btn5);
         btn6 = findViewById(R.id.btn6);
+        btnBaby = findViewById(R.id.btnBaby);
+        btnDisclaimer = findViewById(R.id.btnDisclaimer);
+        btnHospital = findViewById(R.id.btnHospital);
+
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -212,6 +216,35 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+        btnBaby.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, HtmlActivity.class);
+                intent.putExtra("html",DataProvider.Baby_Care);
+                intent.putExtra("title",getResources().getString(R.string.baby_care));
+                startActivity(intent);
+            }
+        });
+
+        btnDisclaimer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, HtmlActivity.class);
+                intent.putExtra("html", DataProvider.Disclaimer);
+                intent.putExtra("title", getResources().getString(R.string.title_disclaimer));
+                startActivity(intent);
+            }
+        });
+
+        btnHospital.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, HtmlActivity.class);
+                intent.putExtra("html", DataProvider.Hospital_list);
+                intent.putExtra("title", getResources().getString(R.string.hospital_list));
+                startActivity(intent);
+            }
+        });
 
 
 

@@ -430,6 +430,7 @@
                                 android:layout_height="wrap_content"
                                 android:textSize="@dimen/_14sdp"
                                 android:textColor="@color/black"
+                                android:gravity="center"
                                 android:text="@string/calculate_bmi"/>
 
                         </LinearLayout>
@@ -498,6 +499,118 @@
                                 android:text="@string/questions"/>
 
                         </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/btnBaby"
+                            android:clickable="true"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:orientation="vertical"
+                            android:layout_marginHorizontal="@dimen/_3sdp"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_80sdp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="@dimen/_40sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:src="@drawable/ic_baby_care"
+                                android:background="@drawable/ic_round"
+                                android:padding="@dimen/_8sdp"
+                                app:tint="@color/black"/>
+
+                            <TextView
+                                android:fontFamily="@font/solaimanlipi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/_14sdp"
+                                android:textColor="@color/black"
+                                android:gravity="center"
+                                android:text="@string/baby_care"/>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/btnDisclaimer"
+                            android:clickable="true"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:orientation="vertical"
+                            android:layout_marginHorizontal="@dimen/_3sdp"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_80sdp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="@dimen/_40sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:src="@drawable/ic_disclaimer"
+                                android:background="@drawable/ic_round"
+                                android:padding="@dimen/_8sdp"
+                                app:tint="@color/black"/>
+
+                            <TextView
+                                android:fontFamily="@font/solaimanlipi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/_14sdp"
+                                android:textColor="@color/black"
+                                android:gravity="center"
+                                android:text="@string/title_disclaimer"/>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/btnHospital"
+                            android:clickable="true"
+                            android:foreground="?attr/selectableItemBackgroundBorderless"
+                            android:orientation="vertical"
+                            android:layout_marginHorizontal="@dimen/_3sdp"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_80sdp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            >
+
+
+                            <ImageView
+                                android:layout_width="@dimen/_40sdp"
+                                android:layout_height="@dimen/_40sdp"
+                                android:src="@drawable/ic_hospital"
+                                android:background="@drawable/ic_round"
+                                android:padding="@dimen/_8sdp"
+                                app:tint="@color/black"/>
+
+                            <TextView
+                                android:fontFamily="@font/solaimanlipi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/_14sdp"
+                                android:textColor="@color/black"
+                                android:gravity="center"
+                                android:text="@string/hospital_list"/>
+
+                        </LinearLayout>
+
 
                     </LinearLayout>
 

@@ -2,10 +2,10 @@
     <string name="app_name">গর্ভকালীন সহায়ক</string>
     <string name="DEVELOPER_CONTACT_MAIL">mobarokop001@gmail.com</string>
     <string name="APP_SHARE_MSG">I found this amazing app that you might like. Download it from: \n</string>
-    <string name="POWERED_BY">Powered by Mobarok Hosen Mukut</string>
+    <string name="POWERED_BY">Powered by Mobarok Hossain</string>
 
-    <bool name="ADS_ON">false</bool>
-    <integer name="AD_INTERVAL">7</integer>
+    <bool name="ADS_ON">true</bool>
+    <integer name="AD_INTERVAL">3</integer>
     <string name="INTERSTITIAL_ID">ca-app-pub-3940256099942544/1033173712</string>
     <string name="BANNER_ID">ca-app-pub-3940256099942544/6300978111</string>
     <string name="APP_ID">ca-app-pub-3940256099942544~3347511713</string>
@@ -27,5 +27,8 @@
     <string name="click_to_know_more">বিস্তারিত জানতে এখানে চাপুন</string>
     <string name="about_us">About Us</string>
     <string name="welcome">স্বাগতম!</string>
+    <string name="baby_care">শিশুর যত্ন</string>
+    <string name="title_disclaimer">বিশেষ দ্রষ্টব্য</string>
+    <string name="hospital_list">হাসপাতাল সমূহ</string>
 
 </resources>

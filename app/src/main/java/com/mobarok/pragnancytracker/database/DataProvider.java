@@ -157,4 +157,453 @@ public class DataProvider {
     public static final String t0 = "আপনার শিশুর সঠিক বিকাশ নিশ্চিত করতে এবং একটি সুস্বাস্থ্যের অধিকারী শিশু জন্ম দেয়ার জন্য আপনাকে অবশ্যই সঠিক উপায়ে খাদ্য গ্রহণ করতে হবে।<br />গর্ভাবস্থায় একজন মায়ের অনেক ধরনের খাদ্য-উপাদান গ্রহণ করা প্রয়োজন। নিচে খাদ্য তালিকা এবং কোন খাদ্যে কী কী উপাদান থাকে তার বর্ণনা দেয়া হল:";
     public static final String t1 = "<br/>এছাড়া গর্ভকালীন সময়ে কিছু কিছু খাদ্য হতে বিরত থাকা উচিত, যেমন:<br/>১। অতিরিক্ত তেল বা মসলাযুক্ত খাবার<br/>২। আধা-সিদ্ধ ডিম<br/>৩। কাঁচা শাকসবজি<br/>";
     public static final String t2 = "মাছ ও মাংস অবশ্যই ভালো করে রান্না করে খান। বাইরের খাবার যতটা সম্ভব এড়িয়ে চলার চেষ্টা করুন। সকল ধরণের খাদ্য গ্রহণের আগে সর্বদা ডাক্তার বা স্বাস্থ্যকর্মীর পরামর্শ গ্রহণ করুন।<br/>";
+
+
+
+
+    public static final String Baby_Care = "<!DOCTYPE html>\n" +
+            "<html>\n" +
+            "<body>\n" +
+            "\n" +
+            "<h2>\uD83C\uDF7C নবজাতক শিশুর যত্ন (১-৬ মাস)</h2>\n" +
+            "\n" +
+            "<div class=\"month-section\">\n" +
+            "<h3>\uD83D\uDCC5 ১ম মাস (০-৩০ দিন)</h3>\n" +
+            "\n" +
+            "<div class=\"tip\">\n" +
+            "<strong>খাওয়ানো:</strong>\n" +
+            "<ul>\n" +
+            "<li>প্রতি ২-৩ ঘণ্টা অন্তর বুকের দুধ খাওয়ান</li>\n" +
+            "<li>দিনে ৮-১২ বার খাওয়াতে হবে</li>\n" +
+            "<li>প্রতিবার ১৫-২০ মিনিট করে খাওয়ান</li>\n" +
+            "<li>খাওয়ানোর পর শিশুকে কাঁধে নিয়ে ঢেকুর তোলান</li>\n" +
+            "</ul>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"tip\">\n" +
+            "<strong>ঘুম:</strong>\n" +
+            "<ul>\n" +
+            "<li>নবজাতক দিনে ১৬-২০ ঘণ্টা ঘুমায়</li>\n" +
+            "<li>শিশুকে চিৎ করে শোয়ান, কখনো উপুড় করে নয়</li>\n" +
+            "<li>ঘুমের সময় মুখ খোলা রাখুন</li>\n" +
+            "</ul>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"warning\">\n" +
+            "<strong>নাভির যত্ন:</strong><br>\n" +
+            "নাভি শুকিয়ে যাওয়া পর্যন্ত পরিষ্কার ও শুকনো রাখুন। সাবান-পানি দিয়ে আস্তে করে পরিষ্কার করুন।\n" +
+            "</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"month-section\">\n" +
+            "<h3>\uD83D\uDCC5 ২য় মাস (৩১-৬০ দিন)</h3>\n" +
+            "\n" +
+            "<div class=\"tip\">\n" +
+            "<strong>খাওয়ানো:</strong>\n" +
+            "<ul>\n" +
+            "<li>এখনও কেবল বুকের দুধ</li>\n" +
+            "<li>প্রতি ৩-৪ ঘণ্টা অন্তর খাওয়ান</li>\n" +
+            "<li>রাতে একটু বেশি ব্যবধানে খাওয়াতে পারেন</li>\n" +
+            "</ul>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"tip\">\n" +
+            "<strong>বিকাশ:</strong>\n" +
+            "<ul>\n" +
+            "<li>শিশু আপনার মুখের দিকে তাকাবে</li>\n" +
+            "<li>হাসতে শুরু করবে</li>\n" +
+            "<li>মাথা অল্প সময়ের জন্য উঠাতে পারবে</li>\n" +
+            "</ul>\n" +
+            "</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"month-section\">\n" +
+            "<h3>\uD83D\uDCC5 ৩য় মাস (৬১-৯০ দিন)</h3>\n" +
+            "\n" +
+            "<div class=\"tip\">\n" +
+            "<strong>খাওয়ানো:</strong>\n" +
+            "<ul>\n" +
+            "<li>বুকের দুধের পাশাপাশি অল্প পানি দিতে পারেন</li>\n" +
+            "<li>প্রতিদিন ৬-৮ বার খাওয়ান</li>\n" +
+            "<li>শিশুর ওজন বৃদ্ধির দিকে খেয়াল রাখুন</li>\n" +
+            "</ul>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"tip\">\n" +
+            "<strong>খেলাধুলা:</strong>\n" +
+            "<ul>\n" +
+            "<li>রঙিন খেলনা দেখান</li>\n" +
+            "<li>শিশুর সাথে কথা বলুন ও গান গাইবেন</li>\n" +
+            "<li>পেটের উপর শুইয়ে মাথা উঠানোর অভ্যাস করান</li>\n" +
+            "</ul>\n" +
+            "</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"month-section\">\n" +
+            "<h3>\uD83D\uDCC5 ৪র্থ মাস (৯১-১২০ দিন)</h3>\n" +
+            "\n" +
+            "<div class=\"tip\">\n" +
+            "<strong>খাবার শুরু:</strong>\n" +
+            "<ul>\n" +
+            "<li>চাল ধোয়া পানি দিতে পারেন</li>\n" +
+            "<li>খুব পাতলা চালের সুজি</li>\n" +
+            "<li>এখনও প্রধান খাবার বুকের দুধ</li>\n" +
+            "</ul>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"tip\">\n" +
+            "<strong>শারীরিক বিকাশ:</strong>\n" +
+            "<ul>\n" +
+            "<li>মাথা স্থিরভাবে ধরে রাখতে পারবে</li>\n" +
+            "<li>উপুড় হয়ে শুলে মাথা উঠাবে</li>\n" +
+            "<li>হাত দিয়ে জিনিস ধরার চেষ্টা করবে</li>\n" +
+            "</ul>\n" +
+            "</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"month-section\">\n" +
+            "<h3>\uD83D\uDCC5 ৫ম মাস (১২১-১৫০ দিন)</h3>\n" +
+            "\n" +
+            "<div class=\"tip\">\n" +
+            "<strong>খাবার বৈচিত্র্য:</strong>\n" +
+            "<ul>\n" +
+            "<li>কলা চটকে দিতে পারেন</li>\n" +
+            "<li>সেদ্ধ করা আপেলের রস</li>\n" +
+            "<li>চালের পাতলা খিচুড়ি</li>\n" +
+            "<li>দিনে ২-৩ বার অতিরিক্ত খাবার</li>\n" +
+            "</ul>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"tip\">\n" +
+            "<strong>খেলাধুলা:</strong>\n" +
+            "<ul>\n" +
+            "<li>বিভিন্ন আওয়াজের খেলনা দিন</li>\n" +
+            "<li>আয়নায় নিজেকে দেখাতে পারেন</li>\n" +
+            "<li>হাততালি দেওয়া শেখান</li>\n" +
+            "</ul>\n" +
+            "</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"month-section\">\n" +
+            "<h3>\uD83D\uDCC5 ৬ষ্ঠ মাস (১৫১-১৮০ দিন)</h3>\n" +
+            "\n" +
+            "<div class=\"tip\">\n" +
+            "<strong>খাবার সম্প্রসারণ:</strong>\n" +
+            "<ul>\n" +
+            "<li>শাকসবজির পিউরি</li>\n" +
+            "<li>গাজর, মিষ্টিকুমড়া সেদ্ধ করে মিশিয়ে দিন</li>\n" +
+            "<li>ডিমের কুসুম (অল্প পরিমাণে)</li>\n" +
+            "<li>দিনে ৩ বার অতিরিক্ত খাবার</li>\n" +
+            "</ul>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"tip\">\n" +
+            "<strong>বিকাশ:</strong>\n" +
+            "<ul>\n" +
+            "<li>বসার চেষ্টা করবে</li>\n" +
+            "<li>এক হাত থেকে অন্য হাতে জিনিস নিবে</li>\n" +
+            "<li>নাম ধরে ডাকলে সাড়া দিবে</li>\n" +
+            "</ul>\n" +
+            "</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<h3>\uD83D\uDEA8 গুরুত্বপূর্ণ সতর্কতা</h3>\n" +
+            "\n" +
+            "<div class=\"warning\">\n" +
+            "<strong>ডাক্তার দেখানোর প্রয়োজন:</strong>\n" +
+            "<ul>\n" +
+            "<li>জ্বর (১০০.৪°F এর বেশি)</li>\n" +
+            "<li>খাওয়া বন্ধ করে দেওয়া</li>\n" +
+            "<li>অতিরিক্ত কান্নাকাটি</li>\n" +
+            "<li>শ্বাসকষ্ট</li>\n" +
+            "<li>ত্বকে লাল দাগ</li>\n" +
+            "<li>বমি বা ডায়রিয়া</li>\n" +
+            "</ul>\n" +
+            "</div>\n" +
+            "\n" +
+            "<h3>\uD83D\uDC89 টিকার সূচি</h3>\n" +
+            "<div class=\"tip\">\n" +
+            "<ul>\n" +
+            "<li><strong>জন্মের সময়:</strong> BCG, হেপাটাইটিস B</li>\n" +
+            "<li><strong>৬ সপ্তাহ:</strong> পেন্টাভ্যালেন্ট, OPV</li>\n" +
+            "<li><strong>১০ সপ্তাহ:</strong> পেন্টাভ্যালেন্ট, OPV</li>\n" +
+            "<li><strong>১৪ সপ্তাহ:</strong> পেন্টাভ্যালেন্ট, OPV</li>\n" +
+            "</ul>\n" +
+            "</div>\n" +
+            "\n" +
+            "<h3>\uD83D\uDEC1 পরিষ্কার-পরিচ্ছন্নতা</h3>\n" +
+            "<div class=\"tip\">\n" +
+            "<ul>\n" +
+            "<li>প্রতিদিন কুসুম গরম পানি দিয়ে গোসল করান</li>\n" +
+            "<li>নাক-কান পরিষ্কার রাখুন</li>\n" +
+            "<li>নিয়মিত কাপড় পাল্টান</li>\n" +
+            "<li>হাত ধোয়ার পর শিশুকে ছুঁয়ে দেখুন</li>\n" +
+            "</ul>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"warning\">\n" +
+            "<strong>মনে রাখুন:</strong> প্রতিটি শিশু আলাদা। কোনো সমস্যা হলে অভিজ্ঞ ডাক্তার বা স্বাস্থ্যকর্মীর সাথে যোগাযোগ করুন। ❤\uFE0F\n" +
+            "</div>\n" +
+            "\n" +
+            "</body>\n" +
+            "</html>";
+
+
+    public static String Disclaimer = "<h3>দাবিত্যাগ (Disclaimer)</h3>\n" +
+            "\n" +
+            "<p>এই অ্যাপে প্রদত্ত তথ্য শুধুমাত্র <b>সাধারণ পরিচর্যা ও সচেতনতার উদ্দেশ্যে</b> দেওয়া হয়েছে। প্রতিটি শিশু ও ব্যক্তির শারীরিক অবস্থা ভিন্ন হতে পারে, তাই কোনো সিদ্ধান্ত গ্রহণের আগে অবশ্যই আপনার স্থানীয় শিশু বিশেষজ্ঞ (পেডিয়াট্রিশিয়ান), স্বাস্থ্যকর্মী অথবা নিবন্ধিত চিকিৎসকের পরামর্শ নিন।</p>\n" +
+            "\n" +
+            "<p>এই অ্যাপ <b>চিকিৎসা পরামর্শ বা প্রেসক্রিপশন প্রদান করে না</b>। তাই এখানে দেওয়া তথ্যকে এককভাবে চিকিৎসার বিকল্প হিসেবে ব্যবহার করবেন না।</p>\n" +
+            "\n" +
+            "<p><b>জরুরি পরিস্থিতি বা হঠাৎ কোনো সমস্যা</b> দেখা দিলে দ্রুত <u>নিকটস্থ হাসপাতাল, জরুরি সেবা কেন্দ্র বা আপনার চিকিৎসকের</u> সঙ্গে যোগাযোগ করুন।</p>\n";
+
+
+
+
+    public static String Hospital_list = "<!DOCTYPE html>\n" +
+            "<html>\n" +
+            "<body>\n" +
+            "\n" +
+            "<h2>\uD83C\uDFE5 বাংলাদেশের বিভাগওয়ার শিশু যত্নের জনপ্রিয় হাসপাতাল তালিকা</h2>\n" +
+            "\n" +
+            "<div class=\"division-header\">\n" +
+            "<h3>\uD83C\uDFDB\uFE0F ঢাকা বিভাগ</h3>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card private-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5 ইউনাইটেড হাসপাতাল লিমিটেড</div>\n" +
+            "<div class=\"hospital-type private-type\">বেসরকারি</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCD প্লট ১৫, রোড ৭১, গুলশান-২, ঢাকা-১২১২</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDE ফোন: +৮৮০২-৮৮৩৬০০০, +৮৮০২-৮৮৩৬৪৪৪</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A শিশু বিশেষজ্ঞ, নবজাতক যত্ন, পেডিয়াট্রিক ICU</div>\n" +
+            "<div class=\"emergency\">\uD83D\uDEA8 ২৪ ঘণ্টা জরুরি সেবা</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card private-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5 স্কয়ার হাসপাতাল</div>\n" +
+            "<div class=\"hospital-type private-type\">বেসরকারি</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCD ১৮/এফ, বীর উত্তম কাজী নজরুল ইসলাম এভিনিউ, ঢাকা</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDE ফোন: ১৬৬৭৭, +৮৮০২-৮১৪৪৪০০</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A শিশু হৃদরোগ, নবজাতক সার্জারি, পেডিয়াট্রিক নিউরোলজি</div>\n" +
+            "<div class=\"emergency\">\uD83D\uDEA8 ২৪ ঘণ্টা জরুরি সেবা</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card govt-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5 শিশু হাসপাতাল ও ইনস্টিটিউট</div>\n" +
+            "<div class=\"hospital-type govt-type\">সরকারি</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCD শেরে বাংলা নগর, ঢাকা-১২০৭</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDE ফোন: +৮৮০২-৯১৪৪০২৬, +৮৮০২-৮১১২৮৫১</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A শিশু বিশেষায়িত চিকিৎসা, শিশু সার্জারি</div>\n" +
+            "<div class=\"emergency\">\uD83D\uDEA8 ২৪ ঘণ্টা জরুরি সেবা</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card govt-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5 বঙ্গবন্ধু শেখ মুজিব মেডিকেল বিশ্ববিদ্যালয় হাসপাতাল</div>\n" +
+            "<div class=\"hospital-type govt-type\">সরকারি</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCDী শাহবাগ, ঢাকা-১০০০</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDE ফোন: +৮৮০২-৯৬৬৬৭১০, +৮৮০২-৮৬১৪১৮৫</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A পেডিয়াট্রিক বিভাগ, নবজাতক ICU</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card private-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5 বারডেম হাসপাতাল</div>\n" +
+            "<div class=\"hospital-type private-type\">বেসরকারি (বিশেষায়িত)</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCD ১২২ কাজী নজরুল ইসলাম এভিনিউ, ঢাকা</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDE ফোন: +৮৮০২-৪১০৬০৫০১-২৪</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A শিশু এন্ডোক্রাইনোলজি, ডায়াবেটিস</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card private-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5 ইবনে সিনা হাসপাতাল</div>\n" +
+            "<div class=\"hospital-type private-type\">বেসরকারি</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCD হাউস ৪৮, রোড ৯/এ, ধানমন্ডি, ঢাকা</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDE ফোন: +৮৮০২-৫৮৬১৫১৫১</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A নবজাতক যত্ন, শিশু বিশেষজ্ঞ</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"division-header\">\n" +
+            "<h3>\uD83C\uDF0A চট্টগ্রাম বিভাগ</h3>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card govt-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5 চট্টগ্রাম মেডিকেল কলেজ হাসপাতাল</div>\n" +
+            "<div class=\"hospital-type govt-type\">সরকারি</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCD পাহাড়তলী, চট্টগ্রাম-৪২০৩</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDE ফোন: +৮৮০৩১-৭২৬৩৫০</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A পেডিয়াট্রিক বিভাগ, নবজাতক যত্ন</div>\n" +
+            "<div class=\"emergency\">\uD83D\uDEA8 ২ৄ ঘণ্টা জরুরি সেবা</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card private-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5 চেভরন ক্লিনিক্যাল ল্যাবরেটরি</div>\n" +
+            "<div class=\"hospital-type private-type\">বেসরকারি</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCD আগ্রাবাদ, চট্টগ্রাম</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDE ফোন: +৮৮০৩১-২৫১৪৪৫১</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A শিশু বিশেষজ্ঞ সেবা</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card private-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5 ইম্পেরিয়াল হাসপাতাল</div>\n" +
+            "<div class=\"hospital-type private-type\">বেসরকারি</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCD নাসিরাবাদ, চট্টগ্রাম</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDE ফোন: +৮৮০৩১-৬৫৪৩২১</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A পেডিয়াট্রিক সেবা, নবজাতক যত্ন</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"division-header\">\n" +
+            "<h3>\uD83C\uDF33 সিলেট বিভাগ</h3>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card govt-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5 সিলেট এম এ জি ওসমানী মেডিকেল কলেজ হাসপাতাল</div>\n" +
+            "<div class=\"hospital-type govt-type\">সরকারি</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCD মেডিকেল কলেজ, সিলেট-৩১০০</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDE ফোন: +৮৮০৮২১-৭১৫২৩৮</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A শিশু বিভাগ, নবজাতক ICU</div>\n" +
+            "<div class=\"emergency\">\uD83D\uDEA8 ২৪ ঘণ্টা জরুরি সেবা</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card private-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5 নর্থ ইস্ট মেডিকেল কলেজ হাসপাতাল</div>\n" +
+            "<div class=\"hospital-type private-type\">বেসরকারি</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCD সিলেট-সুনামগঞ্জ রোড, সিলেট</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDE ফোন: +৮৮০৮২১-৭২৮৪০৮</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A পেডিয়াট্রিক বিভাগ</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"division-header\">\n" +
+            "<h3>\uD83C\uDF3E রাজশাহী বিভাগ</h3>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card govt-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5 রাজশাহী মেডিকেল কলেজ হাসপাতাল</div>\n" +
+            "<div class=\"hospital-type govt-type\">সরকারি</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCD লক্ষ্মীপুর, রাজশাহী-৬০০০</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDE ফোন: +৮৮০৭২১-৭৭২১১০</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A শিশু বিভাগ, নবজাতক যত্ন</div>\n" +
+            "<div class=\"emergency\">\uD83D\uDEA8 ২৪ ঘণ্টা জরুরি সেবা</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card private-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5 ইসলামী ব্যাংক হাসপাতাল</div>\n" +
+            "<div class=\"hospital-type private-type\">বেসরকারি</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCD শাহ মখদুম, রাজশাহী</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDE ফোন: +৮৮০৭২১-৭৬০৮৬৪</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A শিশু বিশেষজ্ঞ সেবা</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"division-header\">\n" +
+            "<h3>❄\uFE0F রংপুর বিভাগ</h3>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card govt-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5 রংপুর মেডিকেল কলেজ হাসপাতাল</div>\n" +
+            "<div class=\"hospital-type govt-type\">সরকারি</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCD মেডিকেল রোড, রংপুর-৫৪০০</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDE ফোন: +৮৮০৫২১-৬৫৪০৭</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A পেডিয়াট্রিক বিভাগ</div>\n" +
+            "<div class=\"emergency\">\uD83D\uDEA8 ২৪ ঘণ্টা জরুরি সেবা</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card private-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5 রংপুর কমিউনিটি মেডিকেল কলেজ হাসপাতাল</div>\n" +
+            "<div class=\"hospital-type private-type\">বেসরকারি</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCD ্খমার মোড়, রংপুর</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDE ফোন: +৮৮০৫২১-৬৬৯৯৮</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A শিশু বিশেষজ্ঞ</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"division-header\">\n" +
+            "<h3>\uD83C\uDF0A খুলনা বিভাগ</h3>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card govt-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5 খুলনা মেডিকেল কলেজ হাসপাতাল</div>\n" +
+            "<div class=\"hospital-type govt-type\">সরকারি</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCDু মেডিকেল কলেজ, খুলনা-৯১০০</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDE ফোন: +৮৮০৪১-৭৬০৪০০</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A শিশু বিভাগ, নবজাতক সেবা</div>\n" +
+            "<div class=\"emergency\">\uD83D\uDEA8 ২৪ ঘণ্টা জরুরি সেবা</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card private-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5 গাজী মেডিকেল কলেজ হাসপাতাল</div>\n" +
+            "<div class=\"hospital-type private-type\">বেসরকারি</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCD খুলনা-যশোর হাইওয়ে, খুলনা</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDE ফোন: +৮৮০৪১-৮৬০০৮০</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A পেডিয়াট্রিক সেবা</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"division-header\">\n" +
+            "<h3>\uD83C\uDF34 বরিশাল বিভাগ</h3>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card govt-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5 শের-ই-বাংলা মেডিকেল কলেজ হাসপাতাল</div>\n" +
+            "<div class=\"hospital-type govt-type\">সরকারি</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCD বন্দর রোড, বরিশাল-৮২০০</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDE ফোন: +৮৮০৪৩১-২১৭৬৪০৮</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A শিশু বিভাগ</div>\n" +
+            "<div class=\"emergency\">\uD83D\uDEA8 ২৪ ঘণ্টা জরুরি সেবা</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card private-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5 বরিশাল মেডিকেল কলেজ হাসপাতাল (বেসরকারি)</div>\n" +
+            "<div class=\"hospital-type private-type\">বেসরকারি</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCD আলেকান্দা, বরিশাল</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDE ফোন: +৮৮০৪৩১-৬৪৮৫৫</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A পেডিয়াট্রিক সেবা</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"division-header\">\n" +
+            "<h3>\uD83C\uDFDE\uFE0F ময়মনসিংহ বিভাগ</h3>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card govt-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5 ময়মনসিংহ মেডিকেল কলেজ হাসপাতাল</div>\n" +
+            "<div class=\"hospital-type govt-type\">সরকারি</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCD মেডিকেল কলেজ রোড, ময়মনসিংহ-২২০০</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDE ফোন: +৮৮০৯১-৬৬৮২৫</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A শিশু বিভাগ, নবজাতক যত্ন</div>\n" +
+            "<div class=\"emergency\">\uD83D\uDEA8 ২৪ ঘণ্টা জরুরি সেবা</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div class=\"hospital-card private-hospital\">\n" +
+            "<div class=\"hospital-name\">\uD83C\uDFE5ত আনোয়ার খান মডার্ন মেডিকেল কলেজ</div>\n" +
+            "<div class=\"hospital-type private-type\">বেসরকারি</div>\n" +
+            "<div class=\"address\">\uD83D\uDCCD ময়মনসিংহ</div>\n" +
+            "<div class=\"contact\">\uD83D\uDCDEন: +৮৮০৯১-৬১২৩৪</div>\n" +
+            "<div class=\"services\">\uD83E\uDE7A শিশু বিশেষজ্ঞ সেবা</div>\n" +
+            "</div>\n" +
+            "\n" +
+            "<h2>\uD83D\uDEA8 জরুরি যোগাযোগ</h2>\n" +
+            "\n" +
+            "<div class=\"hospital-card\" style=\"background-color: #FFEBEE; border-left-color: #F44336;\">\n" +
+            "<div class=\"hospital-name\" style=\"color: #C62828;\">জরুরি হটলাইন নম্বর</div>\n" +
+            "<ul>\n" +
+            "<li><strong>জাতীয় জরুরি সেবা:</strong> ৯৯৯</li>\n" +
+            "<li><strong>স্বাস্থ্য বাতায়ন:</strong> ১৬২৬৩</li>\n" +
+            "<li><strong>শিশু সহায়তা হটলাইন:</strong> ১০৯৮</li>\n" +
+            "<li><strong>জরুরি অ্যাম্বুলেন্স:</strong> ১৯৯</li>\n" +
+            "</ul>\n" +
+            "</div>\n" +
+            "\n" +
+            "<h3>\uD83D\uDCDD গুরুত্বপূর্ণ তথ্য</h3>\n" +
+            "<div class=\"hospital-card\">\n" +
+            "<ul>\n" +
+            "<li><strong>জরুরি অবস্থায়:</strong> সবার আগে নিকটস্থ হাসপাতালের জরুরি বিভাগে যোগাযোগ করুন</li>\n" +
+            "<li><strong>টিকা:</strong> নিয়মিত টিকা নেওয়ার জন্য সরকারি EPI কেন্দ্রগুলো বিনামূল্যে সেবা দেয়</li>\n" +
+            "<li><strong>ডাক্তার দেখানোর আগে:</strong> হাসপাতালে কল করে ডাক্তারের সময় জেনে নিন</li>\n" +
+            "<li><strong>কাগজপত্র:</strong> সবসময় জন্ম নিবন্ধন ও পূর্বের চিকিৎসার কাগজ সাথে রাখুন</li>\n" +
+            "</ul>\n" +
+            "</div>\n" +
+            "\n" +
+            "<div style=\"text-align: center; margin-top: 20px; padding: 15px; background-color: #E8F5E8; border-radius: 5px;\">\n" +
+            "<strong>\uD83D\uDC9A শিশুর সুস্বাস্থ্যের জন্য নিয়মিত চেকআপ করান</strong><br>\n" +
+            "<small>তথ্য সংগ্রহের সময়: সেপ্টেম্বর ২০২৫</small>\n" +
+            "</div>\n" +
+            "\n" +
+            "</body>\n" +
+            "</html>";
+
 }
